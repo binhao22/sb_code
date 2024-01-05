@@ -20,3 +20,4 @@ artifacts:
     - target/springbootApp.jar
     - ./start.sh
     - ./stop.sh
+    - ./appspec.yml
