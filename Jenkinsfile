@@ -12,7 +12,7 @@ pipeline {
         GITSSHADD = 'git@github.com:binhao22/sb_code.git'
         GITCREDENTIAL = 'git_cre'
         
-        DOCKERHUB = 'binhao22/spring'
+        DOCKERHUB = 'dockerbin2/spring'
         DOCKERHUBCREDENTIAL = 'docker_cre'
     }
     
