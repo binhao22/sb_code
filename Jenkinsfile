@@ -40,7 +40,5 @@ pipeline {
                 sh "docker build -t dockerbin2/spring:1.0 ."
             }
         }
-            }
-        }
     }
 }
