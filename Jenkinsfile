@@ -7,7 +7,7 @@ pipeline {
     
     environment {
         GITNAME = 'binhao22'
-        GITMAIL = 'binhao@naver.com'
+        GITEMAIL = 'binhao@naver.com'
         GITWEBADD = 'https://github.com/binhao22/sb_code.git'
         GITSSHADD = 'git@github.com:binhao22/spring_deployment.git'
         GITCREDENTIAL = 'git_cre'
