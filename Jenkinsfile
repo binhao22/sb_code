@@ -35,15 +35,11 @@ pipeline {
             }
         }
         
-        stage('Test') {
+        stage('image build') {
             steps {
-                echo 'Testing..'
+                sh "docker build -t dockerbin2/spring:1.0 ."
             }
         }
-        
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
             }
         }
     }
