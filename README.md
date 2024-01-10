@@ -1,4 +1,4 @@
-handson
+handson - cicd
 
 openjdk-8-jdk
 
