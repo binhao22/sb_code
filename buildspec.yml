@@ -4,7 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto8
-  pre_build: #빌드 전에 할 행동
+  pre_build: #빌드 전에 할 행동.
     commands:
       - echo Pre-build completed
   build: # 빌드 명령.
