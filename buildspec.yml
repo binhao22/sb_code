@@ -16,7 +16,7 @@ phases:
       - echo Build completed
 
 artifacts: 
-  files: # 빌드후에 배포단계로 옮길 파일들
+  files: # 빌드후에 배포단계로 옮길 파일들.
     - target/springbootApp.jar
     - ./start.sh
     - ./stop.sh
